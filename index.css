@@ -3,6 +3,7 @@
     margin: 0;
 }
 body {
+    font-family: 'Outfit', Sans-Serif;
     background-color: #555;
     height: 100vh;
     display: flex;
