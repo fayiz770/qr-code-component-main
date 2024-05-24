@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #555;
+    height: 100vh;
+    display: flex;
+    place-items: center;
+}
+
+.qr-code {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: white;
+    border-radius: 1em;
+}
+
+.qr-code > img {
+    border-radius: 1em;
+    width: 300px;
+}
+
+.text > h1 {
+    text-align: center;
+    margin-top: 1em;
+    font-size: 1em;
+    letter-spacing: .08em;   
+    font-weight: bold;
+}
+
+.text > p {
+    text-align: center;
+    letter-spacing: .08em;
+    margin-top: 1em;
+    color: #555;
+}
+
+
+.text {
+    padding: 0 2em;
+}
